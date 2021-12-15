@@ -1,0 +1,13 @@
+
+GET http://localhost:5000/api/v1/transactions/ HTTP/1.1
+###Post transaction: add new transaction
+POST http://localhost:5000/api/v1/transactions/ HTTP/1.1
+content-type: application/json
+
+{
+    "desc": "prueba",
+    "amount": 500
+}
+
+### delete request
+DELETE  http://localhost:5000/api/v1/transactions/61b91afa7a1b103a1901c2fc HTTP/1.1
