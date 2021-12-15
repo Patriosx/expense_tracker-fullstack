@@ -2,14 +2,18 @@
 
 [DEMO](https://expensetracker-prt.herokuapp.com/)
 
-Frontend:
-<br>Reactjs
+<strong>Frontend:</strong>
 <br>bootswatch
+<br>Reactjs
 <ul>
   <li>useContext -> globalstate</li>
   <li>useReducer</li>
 </ul>
 
-Backend:
+<strong>Backend:</strong>
 <br>Nodejs - Express
 <br>MongoDB - Mongoose
+
+<strong>Deployment:</strong>
+<br>Heroku
+
